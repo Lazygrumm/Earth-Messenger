@@ -1,7 +1,14 @@
+@import "slide.css";
+
 body {
     font-family: "Segoe UI", "Noto Sans CJK SC", Arial, sans-serif;
     font-size: 14px;
     line-height: 1.25;
+}
+
+.dark {
+    background-color: black;
+    color: white;
 }
 
 .fullscreen {
@@ -14,21 +21,29 @@ body {
 }
 
 .bingbg {
-    background-image: url(https://bing.biturl.top/?resolution=1920&format=image&index=0&mkt=zh-CN);
+    background-image: url(https://bing.ioliu.cn/v1);
     background-size: cover;
+    background-position: 50% 50%;
+    animation-duration: 1.2s;
+    animation-name: smooth_entry;
+    opacity: 80%;
 }
 
-.blackmask {
-    background-color: black;
-    opacity: 0.3;
-}
-
-.headtext {
-    color: white;
+#title {
     text-align: left;
-    font-size: 6em;
-    top: 30%;
+    top: 25%;
     left: 5%;
+    position: absolute;
+}
+
+.title_text {
+    font-size: 5em;
     font-weight: bold;
 }
+
+.sub_title_text {
+    font-size: 2em;
+    font-weight: 300;
+}
+
 

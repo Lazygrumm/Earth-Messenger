@@ -1,0 +1,10 @@
+
+@keyframes smooth_entry {
+    from {
+        opacity: 0%;
+    }
+    to {
+        opacity: 80%;
+    }
+}
+
