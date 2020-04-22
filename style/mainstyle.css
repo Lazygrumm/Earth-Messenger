@@ -1,3 +1,34 @@
 body {
-    font-family: 'Noto Sans CJK SC';
+    font-family: "Segoe UI", "Noto Sans CJK SC", Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.25;
 }
+
+.fullscreen {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.bingbg {
+    background-image: url(https://bing.biturl.top/?resolution=1920&format=image&index=0&mkt=zh-CN);
+    background-size: cover;
+}
+
+.blackmask {
+    background-color: black;
+    opacity: 0.3;
+}
+
+.headtext {
+    color: white;
+    text-align: left;
+    font-size: 6em;
+    top: 30%;
+    left: 5%;
+    font-weight: bold;
+}
+
