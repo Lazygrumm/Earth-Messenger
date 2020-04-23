@@ -21,8 +21,7 @@ body {
 }
 
 .bingbg {
-/*  background-image: url(https://bing.ioliu.cn/v1); api 返回 403 */
-    background-image: url(https://api.dujin.org/bing/1366.php);/* 临时改用该 api */
+    background-image: url(https://bing.ioliu.cn/v1/rand);
     background-size: cover;
     background-position: 50% 50%;
     animation-duration: 1.2s;
