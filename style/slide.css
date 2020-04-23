@@ -1,29 +1,29 @@
 
 @keyframes smooth_entry {
     from {
-        opacity: 0%;
+        opacity: 0.0;
     }
     to {
-        opacity: 80%;
+        opacity: 0.8;
     }
 }
 
 
 @-moz-keyframes smooth_entry {
     from {
-        opacity: 0%;
+        opacity: 0.0;
     }
     to {
-        opacity: 80%;
+        opacity: 0.8;
     }
 }
 
 
 @-moz-keyframes smooth_entry {
     from {
-        opacity: 0%;
+        opacity: 0.0;
     }
     to {
-        opacity: 80%;
+        opacity: 0.8;
     }
 }
