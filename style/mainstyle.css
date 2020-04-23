@@ -31,7 +31,7 @@ body {
     animation-name: smooth_entry;
     -moz-animation-name: smooth_entry;
     -moz-animation-name: smooth_entry;
-    opacity: 80%;
+    opacity: 0.8;
 }
 
 #title {
