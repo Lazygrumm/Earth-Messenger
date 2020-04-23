@@ -21,11 +21,16 @@ body {
 }
 
 .bingbg {
-    background-image: url(https://bing.ioliu.cn/v1);
+/*  background-image: url(https://bing.ioliu.cn/v1); api 返回 403 */
+    background-image: url(https://api.dujin.org/bing/1366.php);/* 临时改用该 api */
     background-size: cover;
     background-position: 50% 50%;
     animation-duration: 1.2s;
+    -moz-animation-direction: 1.2s;
+    -webkit-animation-direction: 1.2s;
     animation-name: smooth_entry;
+    -moz-animation-name: smooth_entry;
+    -moz-animation-name: smooth_entry;
     opacity: 80%;
 }
 

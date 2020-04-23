@@ -8,3 +8,22 @@
     }
 }
 
+
+@-moz-keyframes smooth_entry {
+    from {
+        opacity: 0%;
+    }
+    to {
+        opacity: 80%;
+    }
+}
+
+
+@-moz-keyframes smooth_entry {
+    from {
+        opacity: 0%;
+    }
+    to {
+        opacity: 80%;
+    }
+}
