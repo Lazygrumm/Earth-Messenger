@@ -21,7 +21,7 @@ body {
 }
 
 .bingbg {
-    background-image: url(https://bing.ioliu.cn/v1/rand);
+    background-image: url(https://api.dujin.org/bing/1920.php);
     background-size: cover;
     background-position: 50% 50%;
     animation-duration: 1.2s;
