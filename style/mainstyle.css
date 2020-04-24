@@ -17,6 +17,14 @@ footer {
     right: 1rem;
 }
 
+a {
+    color: white;
+}
+
+li a {
+    text-decoration: none;
+}
+
 .dark {
     background-color: black;
     color: white;
@@ -38,15 +46,16 @@ footer {
     animation-duration: 1.2s;
     -moz-animation-direction: 1.2s;
     -webkit-animation-direction: 1.2s;
-    animation-name: smooth_entry;
-    -moz-animation-name: smooth_entry;
-    -webkit-animation-name: smooth_entry;
+    animation-name: smooth_entry_80;
+    -moz-animation-name: smooth_entry_80;
+    -webkit-animation-name: smooth_entry_80;
     opacity: 0.8;
 }
 
 .title_text {
     font-size: 5em;
     font-weight: bold;
+    line-height: 1.5;
 }
 
 .sub_title_text {
@@ -54,12 +63,49 @@ footer {
     font-weight: 300;
 }
 
+.nav_list {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+.list_object {
+    height: 2.5cm;
+    width: 2.3cm;
+    border: 2px solid white ;
+    border-radius: 10px;
+    animation-duration: 1.2s;
+    -moz-animation-direction: 1.2s;
+    -webkit-animation-direction: 1.2s;
+    animation-name: smooth_entry;
+    -moz-animation-name: smooth_entry;
+    -webkit-animation-name: smooth_entry;
+    opacity: 1.0;
+}
+
+.list_icon {
+    font-size: 2rem;
+    line-height: 1.7;
+}
+
+.list_text
+{
+    font-size: 1.2rem;
+}
+
 #title {
     text-align: left;
-    top: 25%;
-    left: 5%;
+    top: 20%;
+    left: 7%;
+    right: 25%;
     position: absolute;
 }
 
-
+#nav {
+    text-align: center;
+    top: 60%;
+    left: 5%;
+    right: 5%;
+    position: absolute;
+}
 

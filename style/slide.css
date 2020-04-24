@@ -1,10 +1,40 @@
 
+@keyframes smooth_entry_80 {
+    from {
+        opacity: 0.0;
+    }
+    to {
+        opacity: 0.8;
+    }
+}
+
+
+@-moz-keyframes smooth_entry_80 {
+    from {
+        opacity: 0.0;
+    }
+    to {
+        opacity: 0.8;
+    }
+}
+
+
+@-moz-keyframes smooth_entry_80 {
+    from {
+        opacity: 0.0;
+    }
+    to {
+        opacity: 0.8;
+    }
+}
+
+
 @keyframes smooth_entry {
     from {
         opacity: 0.0;
     }
     to {
-        opacity: 0.8;
+        opacity: 1.0;
     }
 }
 
@@ -14,7 +44,7 @@
         opacity: 0.0;
     }
     to {
-        opacity: 0.8;
+        opacity: 1.0;
     }
 }
 
@@ -24,6 +54,6 @@
         opacity: 0.0;
     }
     to {
-        opacity: 0.8;
+        opacity: 1.0;
     }
 }
