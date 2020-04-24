@@ -8,30 +8,32 @@
     <meta name="description" content="EarthMessenger.github.io 是 EarthMessenger 的个人网站，包括一些杂七杂八的网页项目" />
     <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
     <link href="./style/mainstyle.css" rel="stylesheet" type="text/css" />
-    <script>
-        function showTime() {
-            nowtime = new Date();
-            year = nowtime.getFullYear();
-            month = nowtime.getMonth() + 1;
-            date = nowtime.getDate();
-            document.getElementById("time").innerText = year + "年" + month + "月" + date + "日 " + nowtime.toLocaleTimeString();
-        }
-
-        setInterval("showTime()", 1000);
-    </script>
+    <!--不算子计数js-->
+    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <!--不算子计数js-->
 </head>
 
 <body>
     <div id="root" class="fullscreen dark">
+
         <div id="background" class="fullscreen bingbg"></div>
+
         <div id="title">
             <div id="title_text" class="title_text">Hello World!</div>
             <div id="sub_title_test" class="sub_title_text">恭喜您发现一个空空如也的个人网站</div>
         </div>
+
         <footer>
-            <div id="time" style="float: left;">加载中……</div>
+            <!--不算子计数-->
+            <div id="website_cnt" style="float: left;">
+                <span id="busuanzi_container_site_pv">本站已经被巨佬们访问了
+                    <span id="busuanzi_value_site_pv">0</span>
+                    次</span>
+            </div>
+            <!--不算子计数-->
             <div id="image_info" style="float: right;">图片来自 Bing 每日图片</div>
         </footer>
+
     </div>
 </body>
 

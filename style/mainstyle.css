@@ -1,9 +1,20 @@
 @import "slide.css";
 
+* {
+	box-sizing: border-box;
+}
+
 body {
     font-family: "Segoe UI", "Noto Sans CJK SC", Arial, sans-serif;
     font-size: 14px;
     line-height: 1.25;
+}
+
+footer {
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+    right: 1rem;
 }
 
 .dark {
@@ -29,15 +40,8 @@ body {
     -webkit-animation-direction: 1.2s;
     animation-name: smooth_entry;
     -moz-animation-name: smooth_entry;
-    -moz-animation-name: smooth_entry;
+    -webkit-animation-name: smooth_entry;
     opacity: 0.8;
-}
-
-#title {
-    text-align: left;
-    top: 25%;
-    left: 5%;
-    position: absolute;
 }
 
 .title_text {
@@ -50,11 +54,11 @@ body {
     font-weight: 300;
 }
 
-footer {
+#title {
+    text-align: left;
+    top: 25%;
+    left: 5%;
     position: absolute;
-    bottom: 1rem;
-    left: 1rem;
-    right: 1rem;
 }
 
 
