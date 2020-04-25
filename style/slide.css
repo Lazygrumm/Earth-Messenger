@@ -19,7 +19,7 @@
 }
 
 
-@-moz-keyframes smooth_entry_80 {
+@-webkit-keyframes smooth_entry_80 {
     from {
         opacity: 0.0;
     }
@@ -49,7 +49,7 @@
 }
 
 
-@-moz-keyframes smooth_entry {
+@-webkit-keyframes smooth_entry {
     from {
         opacity: 0.0;
     }
