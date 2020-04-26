@@ -50,6 +50,10 @@ li a {
     -moz-animation-name: smooth_entry_80;
     -webkit-animation-name: smooth_entry_80;
     opacity: 0.8;
+    filter: blur(2px);          /*Blur*/
+    -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+    -ms-filter: blur(2px);
 }
 
 .title_text {
