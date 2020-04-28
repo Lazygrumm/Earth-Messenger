@@ -10,6 +10,13 @@ body {
     line-height: 1.25;
 }
 
+header {
+    position: absolute;
+    height: 3rem;
+    width: 100%;
+    left: 0px;
+}
+
 footer {
     position: absolute;
     bottom: 1rem;
@@ -92,8 +99,7 @@ li a {
     line-height: 1.7;
 }
 
-.list_text
-{
+.list_text {
     font-size: 1.2rem;
 }
 
@@ -113,3 +119,8 @@ li a {
     position: absolute;
 }
 
+#setting_button_box {
+    top: 50%;
+    left: 3%;
+    position: absolute;
+}
