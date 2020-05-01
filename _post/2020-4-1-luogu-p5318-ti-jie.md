@@ -2,9 +2,7 @@
 title: "洛谷 P5318 题解"
 description: "P5318 的题解，然鹅并没有提交成功"
 layout: post
-categories: [test]
 tags: [test]
-comments: yes
 ---
 
 ## 1 题目分析
