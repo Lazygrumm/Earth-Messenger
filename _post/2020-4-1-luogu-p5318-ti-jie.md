@@ -1,8 +1,7 @@
 ---
 title: "洛谷 P5318 题解"
-description: "P5318 的题解，然鹅并没有提交成功"
 layout: post
-tags: [test]
+permalink: /blog/luogu-p5318-ti-jie
 ---
 
 ## 1 题目分析
