@@ -77,14 +77,11 @@ li a {
 .nav_list {
     padding: 0px;
     margin: 0px;
-    list-style: none;
 }
 
 .list_object {
-    height: 2.5cm;
-    width: 2.3cm;
-    border: 2px solid white ;
-    border-radius: 10px;
+    list-style: none;
+    display: inline-block;
     animation-duration: 1.2s;
     -moz-animation-direction: 1.2s;
     -webkit-animation-direction: 1.2s;
@@ -94,6 +91,14 @@ li a {
     opacity: 1.0;
 }
 
+.nav_object_border {
+    
+    height: 2.5cm;
+    width: 2.3cm;
+    border: 1px solid white ;
+    border-radius: 10px;
+}
+
 .list_icon {
     font-size: 2rem;
     line-height: 1.7;
@@ -101,6 +106,12 @@ li a {
 
 .list_text {
     font-size: 1.2rem;
+}
+
+.nav_list {
+    margin: 0px auto;
+    padding: 0px;
+    text-align: center;
 }
 
 #title {

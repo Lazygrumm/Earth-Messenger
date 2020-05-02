@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            var goto = location.search;
+            goto = goto.substring(1, goto.length);
+            var args = goto.split('&');
+            args = args[0].split('=');
+            if (args[0] == "goto")
+                location.href = args[1];
+            else 
+                history.go(-1);
+        </script>
+    </head>
+</html>
