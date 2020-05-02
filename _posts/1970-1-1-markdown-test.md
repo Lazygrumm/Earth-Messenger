@@ -2,6 +2,7 @@
 title: "Markdown Test"
 layout: post
 permalink: /blog/markdown-test
+time: 1970-1-1
 ---
 
 # This is header1

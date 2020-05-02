@@ -2,6 +2,7 @@
 title: "洛谷 P5318 题解"
 layout: post
 permalink: /blog/luogu-p5318-ti-jie
+time: 2020-4-1
 ---
 
 # 1 题目分析
