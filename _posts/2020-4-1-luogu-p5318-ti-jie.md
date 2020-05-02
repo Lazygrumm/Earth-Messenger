@@ -18,7 +18,7 @@ permalink: /blog/luogu-p5318-ti-jie
 
 样例图片：
 
-![](https://cdn.luogu.com.cn/upload/image_hosting/f4n4tlhi.png)
+![题目原图.png](https://i.loli.net/2020/05/02/ecbs5MLzk3gtC1w.png)
 
 存法如表：
 
@@ -28,7 +28,7 @@ permalink: /blog/luogu-p5318-ti-jie
 |   3   |   6   |       |   8   |       |       |       |       |
 |   4   |       |       |       |       |       |       |       |
 
-这种存法的好处在于，它和邻接矩阵比较相似，对新手比较友好（雾）。
+这种存法就是所谓的 **邻接表**。
 
 由于题目中要求编号较小的文章优先，因此我们需要对图每个顶点的所指向的顶点编号进行**排序**。
 
@@ -47,7 +47,7 @@ permalink: /blog/luogu-p5318-ti-jie
 
 测试图片：
 
-![测试图片](https://cdn.luogu.com.cn/upload/image_hosting/gz15kfhj.png)
+![速度测试.png](https://i.loli.net/2020/05/02/4dMa9E2Jmh7VrvO.png)
 
 ### 1.2 DFS
 
@@ -59,7 +59,7 @@ DFS，又叫深度优先搜索。它的基本思路是：一条路走到走不�
 
 如图：
 
-![DFS遍历](https://cdn.luogu.com.cn/upload/image_hosting/pev7q14z.png)
+![dfs讲解.png](https://i.loli.net/2020/05/02/tbzSsR3OA1Cx8Wf.png)
 
 (直接用截图软件画在上面的，可能不太好看)
 
@@ -86,7 +86,7 @@ BFS,又叫广度优先搜索。基本思路是：一层一层地遍历。
 
 还是如图：
 
-![BFS遍历](https://cdn.luogu.com.cn/upload/image_hosting/8nb8g35o.png)
+![bfs讲解.png](https://i.loli.net/2020/05/02/J9u6zAnCMsIKFcb.png)
 
 BFS 代码：
 
