@@ -4,13 +4,13 @@ layout: post
 permalink: /blog/luogu-p5318-ti-jie
 ---
 
-## 1 题目分析
+# 1 题目分析
 
 原题传送门：[查看原题](https://www.luogu.com.cn/problem/P5318)
 
 这道题其实是一道简单的~~水题~~模板题，主要考察**DFS** 和 **BFS**。
 
-### 1.1 存图
+## 1.1 存图
 
 图论的题肯定是要分析存图的方式的。
 
@@ -49,7 +49,7 @@ permalink: /blog/luogu-p5318-ti-jie
 
 ![速度测试.png](https://i.loli.net/2020/05/02/4dMa9E2Jmh7VrvO.png)
 
-### 1.2 DFS
+## 1.2 DFS
 
 DFS，又叫深度优先搜索。它的基本思路是：一条路走到走不动，走不动了再回溯回去找另一条路。
 
@@ -76,7 +76,7 @@ void dfs(int cur)           // cur 表示当前节点
 }
 ```
 
-### 1.3 BFS
+## 1.3 BFS
 
 BFS,又叫广度优先搜索。基本思路是：一层一层地遍历。
 
@@ -113,7 +113,7 @@ void bfs()
 }
 ```
 
-## 2 代码
+# 2 代码
 
 这篇题解就到这里了，下面是AC代码：
 

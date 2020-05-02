@@ -1,5 +1,29 @@
 ---
-layout: default
 ---
 
-{{ content }}
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon" />
+    <link href="/assets/style/blog.css" rel="stylesheet" type="text/css" />
+    <title>{{ page.title }}</title>
+</head>
+
+<body>
+    <div id="root" class="light sans-serif">
+        <div id="text" class="container" style="font-size: 16px;">
+            <header>
+                <a id="back_to_menu" href="/blogs/">返回博客目录</a>
+                <h1 id="title">{{ page.title }}</h1>
+            </header>
+            <hr />
+            <div id="content" class="content">
+                {{ content }}
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
