@@ -1,4 +1,24 @@
 
+img {
+    margin: 0px auto;
+}
+
+code {
+    font-family: monospace;
+    background-color: #f6f8fa;
+}
+
+table {
+    margin: 0px auto;
+}
+
+table, th, td {
+    border: 1px solid currentColor;
+    border-collapse: collapse;
+    padding: 6px;
+    
+}
+
 .light {
     color: #333333;
     background-color: #ffffff;
@@ -11,6 +31,13 @@
 .container {
     margin: auto;
     max-width: 40em;
+    overflow: hidden;
+}
+
+.content * {
+    max-width: 100%;
+    height: auto;
+
 }
 
 #back_to_menu {
@@ -22,16 +49,12 @@
 }
 
 #title {
-    font-size: 1.6em;
+    font-size: 2em;
     line-height: 1.25em;
-    width: 100%;
+    width: 70%;
     margin: 30px auto;
     padding: 0px;
-}
-
-#blog_cnt {
-    color: #505050;
-    font-style: italic;
+    text-align: center;
 }
 
 #blog_data {

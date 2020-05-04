@@ -57,10 +57,6 @@ li a {
     -moz-animation-name: smooth_entry_80;
     -webkit-animation-name: smooth_entry_80;
     opacity: 0.8;
-    filter: blur(2px);          /*Blur*/
-    -webkit-filter: blur(2px);
-    -moz-filter: blur(2px);
-    -ms-filter: blur(2px);
 }
 
 .title_text {
@@ -83,8 +79,8 @@ li a {
     list-style: none;
     display: inline-block;
     animation-duration: 1.2s;
-    -moz-animation-direction: 1.2s;
-    -webkit-animation-direction: 1.2s;
+    -moz-animation-duration: 1.2s;
+    -webkit-animation-duration: 1.2s;
     animation-name: smooth_entry;
     -moz-animation-name: smooth_entry;
     -webkit-animation-name: smooth_entry;
@@ -92,7 +88,6 @@ li a {
 }
 
 .nav_object_border {
-    
     height: 2.5cm;
     width: 2.3cm;
     border: 1px solid white ;

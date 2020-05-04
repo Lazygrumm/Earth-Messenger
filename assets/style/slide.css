@@ -7,8 +7,6 @@
         opacity: 0.8;
     }
 }
-
-
 @-moz-keyframes smooth_entry_80 {
     from {
         opacity: 0.0;
@@ -17,8 +15,6 @@
         opacity: 0.8;
     }
 }
-
-
 @-webkit-keyframes smooth_entry_80 {
     from {
         opacity: 0.0;
@@ -28,7 +24,6 @@
     }
 }
 
-
 @keyframes smooth_entry {
     from {
         opacity: 0.0;
@@ -37,8 +32,6 @@
         opacity: 1.0;
     }
 }
-
-
 @-moz-keyframes smooth_entry {
     from {
         opacity: 0.0;
@@ -47,8 +40,6 @@
         opacity: 1.0;
     }
 }
-
-
 @-webkit-keyframes smooth_entry {
     from {
         opacity: 0.0;
