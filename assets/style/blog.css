@@ -6,6 +6,11 @@ img {
 code {
     font-family: monospace;
     background-color: #f6f8fa;
+    line-height: 1.45;
+    border-radius: 3px;
+    padding: 16px;
+    overflow: auto;
+    width: 100%;
 }
 
 table {
@@ -16,7 +21,7 @@ table, th, td {
     border: 1px solid currentColor;
     border-collapse: collapse;
     padding: 6px;
-    
+
 }
 
 .light {
@@ -37,7 +42,13 @@ table, th, td {
 .content * {
     max-width: 100%;
     height: auto;
+}
 
+#content {
+    border: 1px solid #e1e4e8;
+    padding: 16px;
+    padding-left: 32px;
+    padding-right: 32px;
 }
 
 #back_to_menu {
