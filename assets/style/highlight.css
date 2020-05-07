@@ -1,0 +1,37 @@
+.highlight code .cp {
+    color: #af00db;
+}
+
+.highlight code .kt {
+    color: #52a6ff;
+    font-weight: 700;
+}
+
+.highlight code .nf {
+    color: #be8165;
+}
+
+.highlight code .p {
+    color: black;
+}
+
+.highlight code .n {
+    color: #2693c4;
+}
+
+.highlight code .o {
+    color: black;
+}
+
+.highlight code .s {
+    color: #ac1560;
+}
+
+.highlight code .k {
+    color: #52a6ff;
+    font-weight: 700;
+}
+
+.highlight code .mi {
+    color: #09865d;
+}
