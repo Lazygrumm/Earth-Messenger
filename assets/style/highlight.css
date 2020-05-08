@@ -41,6 +41,11 @@
     font-style: italic;
 }
 
+.highlight code .cm {
+    color: #2f962f;
+    font-style: italic;
+}
+
 .highlight code .nl {
     color: #2844bd;
     font-weight: 700;
