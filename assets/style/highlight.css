@@ -3,7 +3,7 @@
 }
 
 .highlight code .kt {
-    color: #52a6ff;
+    color: #2844bd;
     font-weight: 700;
 }
 
@@ -28,10 +28,20 @@
 }
 
 .highlight code .k {
-    color: #52a6ff;
+    color: #2844bd;
     font-weight: 700;
 }
 
 .highlight code .mi {
     color: #09865d;
+}
+
+.highlight code .c1 {
+    color: #2f962f;
+    font-style: italic;
+}
+
+.highlight code .nl {
+    color: #2844bd;
+    font-weight: 700;
 }

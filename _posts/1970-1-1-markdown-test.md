@@ -89,6 +89,7 @@ C++ 代码
 
 ```cpp
 // 注释
+/* 多行注释 */
 
 #include <iostream> // 宏命令
 
@@ -121,9 +122,9 @@ MyClass operator+(const MyClass& mc1, const MyClass& mc2) // 运算符重载
 }
 
 int main() {
-    MyClass mc1(5), mc2(6), mc3;
+    MyClass mc1(5), mc2((int)1.0), mc3;
     mc3 = mc1 + mc2;
-    cout << mc3.getValue();
+    function(mc3.getValue());
     return 0;
 }
 ```
