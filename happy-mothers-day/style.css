@@ -44,7 +44,7 @@ html, body {
 .middleWords {
     background-color: white;
     color: black;
-    font-size: 24px;
+    font-size: 20px;
     margin-top: 3em;
     margin-left: 10%;
     margin-right: 10%;
@@ -69,17 +69,4 @@ html, body {
     left: 0px;
     width: 100%;
     height: 60%;
-}
-
-.wordTo {
-    text-align: left;
-}
-
-.wordContent {
-    text-align: left;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.wordBy {
-    text-align: right;
 }
