@@ -1,4 +1,4 @@
-name: EarthMessenger的个人网站
-description:  EarthMessenger的个人网站，放一些乱七八糟的网页和文章。
-url: https://earthmessenger.github.io/
-markdown: kramdown
+name: "EarthMessenger的个人网站"
+description:  "EarthMessenger的个人网站，放一些乱七八糟的网页和文章。"
+url: "earthmessenger.github.io"
+markdown: "kramdown"
