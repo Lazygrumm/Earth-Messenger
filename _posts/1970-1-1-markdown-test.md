@@ -2,7 +2,7 @@
 title: "Markdown Test"
 layout: post
 permalink: /blog/markdown-test
-time: 1970-1-1
+date: 1970-1-1
 ---
 
 # 标题1
@@ -113,7 +113,7 @@ public:
 
     void setValue(int newValue) { this->value = newValue }
 
-}
+};
 
 MyClass operator+(const MyClass& mc1, const MyClass& mc2) // 运算符重载
 {

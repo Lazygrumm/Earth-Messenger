@@ -8,11 +8,16 @@ title: "Earth_Messenger的博客目录"
 <head>
     <meta charset="UTF-8">
     <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="/assets/style/blogmenu.css" type="text/css" />
+    <link rel="stylesheet" href="/assets/style/nav.css" type="text/css" />
     <title>Earth_Messenger的博客目录</title>
 </head>
 
 <body>
     <div id="root">
+        <header>
+            {% include header.html %}
+        </header>
         {{ content }}
     </div>
 </body>

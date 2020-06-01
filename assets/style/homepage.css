@@ -51,11 +51,7 @@ li a {
     background-size: cover;
     background-position: 50% 50%;
     animation-duration: 1.2s;
-    -moz-animation-direction: 1.2s;
-    -webkit-animation-direction: 1.2s;
     animation-name: smooth_entry_80;
-    -moz-animation-name: smooth_entry_80;
-    -webkit-animation-name: smooth_entry_80;
     opacity: 0.8;
 }
 
@@ -63,11 +59,15 @@ li a {
     font-size: 5em;
     font-weight: bold;
     line-height: 1.5;
+    width: max-content;
+    /* animation: input_focus 1s infinite; */
 }
-
+ 
 .sub_title_text {
     font-size: 2em;
     font-weight: 300;
+    width: max-content;
+    /* animation: input_focus 1s infinite; */
 }
 
 .nav_list {
@@ -78,13 +78,6 @@ li a {
 .list_object {
     list-style: none;
     display: inline-block;
-    animation-duration: 1.2s;
-    -moz-animation-duration: 1.2s;
-    -webkit-animation-duration: 1.2s;
-    animation-name: smooth_entry;
-    -moz-animation-name: smooth_entry;
-    -webkit-animation-name: smooth_entry;
-    opacity: 1.0;
 }
 
 .nav_object_border {

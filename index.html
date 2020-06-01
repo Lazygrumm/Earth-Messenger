@@ -20,7 +20,7 @@
 
         <header>
             <div id="setting_button_box">
-                <a id="setting_button" class="header_button" title="设置样式">
+                <a id="setting_button" class="header_button" href="javascript:(alert('作者正在努力开发这部分的内容，敬请期待！'))">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                         stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                         <circle cx="12" cy="12" r="3"></circle>
@@ -37,33 +37,6 @@
             <div id="sub_title_text" class="sub_title_text"></div>
         </div>
 
-        <!--输入特效-->
-        <script>
-            let title = "Hello World", sub_title = "恭喜您发现一个人网站";
-            var title_obj = document.getElementById("title_text"), sub_title_obj = document.getElementById("sub_title_text");
-            var i = 0, j = 0, timer;
-            function typing() {
-                if (i <= title.length) {
-                    title_obj.innerHTML = title.slice(0, i++) + '_';
-                } else {
-                    title_obj.innerHTML = title;
-                }
-                if (j <= sub_title.length) {
-                    sub_title_obj.innerHTML = sub_title.slice(0, j++) + '_';
-                } else {
-                    sub_title_obj.innerHTML = sub_title;
-                }
-                if (i > title.length && j > sub_title.length) {
-                    title_obj.innerHTML = title;
-                    sub_title_obj.innerHTML = sub_title;
-                    clearTimeout(timer);
-                } else {
-                    timer = setTimeout("typing()", 200);
-                }
-            }
-            typing();
-        </script>
-        <!--输入特效-->
 
         <div id="nav">
             <ul id="nav_list" class="nav_list">
@@ -92,6 +65,10 @@
         </footer>
 
     </div>
+
+    <!--输入特效-->
+    <script src="./assets/script/homepage_typing.js"></script>
+    <!--输入特效-->
 </body>
 
 </html>

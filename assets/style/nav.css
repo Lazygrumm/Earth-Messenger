@@ -1,0 +1,92 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+}
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+}
+
+a, a:visited, a:active, a:link {
+    text-decoration: none;
+    transition: all 0.3s;
+    color: rgb(255, 255, 255);
+}
+
+a:hover {
+    color: rgb(191, 192, 193);
+}
+
+.nav_content {
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: block;
+    margin: 0 auto;
+    transition: all 0.5s ease-out;
+    font-weight: 300;
+    background-color: rgb(39, 44, 48);
+}
+
+.nav_content .nav_logo {
+    width: 400px;
+    line-height: 48px;
+    padding: 0 15px;
+    float: left;
+}
+
+.nav_content .nav_logo a img {
+    width: 26px;
+    height: 26px;
+    margin-right: 6px;
+    vertical-align: middle;
+}
+
+.nav_content .nav_logo a h2 {
+    display: inline-block;
+    vertical-align: middle;
+    color: rgb(255, 255, 255);
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.nav_content .nav_logo a h2:hover {
+    color: rgb(191, 192, 193);
+}
+
+.nav_list {
+    display: block;
+    float: right;
+    margin: 0;
+    padding: 0;
+}
+
+ol, ul, li {
+    text-decoration: none;
+}
+
+.nav_list li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+}
+
+.nav_list li .nav_a {
+    display: inline-block;
+    line-height: 50px;
+    padding: 0 15px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 1px;
+    font-weight: 200;
+    font-size: 16px;
+    transition: all 0.3s;
+    text-align: center;
+}
+
+.nav_list li .nav_a:hover {
+    color: rgb(191, 192, 193);
+}
+
