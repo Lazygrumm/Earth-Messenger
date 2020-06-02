@@ -3,13 +3,14 @@ title: "洛谷 P5318 题解"
 layout: post
 permalink: /blog/luogu-p5318-ti-jie
 date: 2020-4-1
+content: 这是洛谷 P5318 的题解，这道题是一道大水题（划掉）模板题，基本上邻接表加dfs() bfs()套一下就做出来了了。
 ---
 
 # 1 题目分析
 
 原题传送门：[查看原题](https://www.luogu.com.cn/problem/P5318)
 
-这道题其实是一道简单的~~水题~~模板题，主要考察**DFS** 和 **BFS**。
+这道题其实是一道简单的~~水题~~模板题，主要考察 **DFS** 和 **BFS**。
 
 ## 1.1 存图
 

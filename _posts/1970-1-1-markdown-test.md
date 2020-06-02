@@ -3,6 +3,7 @@ title: "Markdown Test"
 layout: post
 permalink: /blog/markdown-test
 date: 1970-1-1
+content: 这是个用于测试Markdown的文件
 ---
 
 # 标题1
