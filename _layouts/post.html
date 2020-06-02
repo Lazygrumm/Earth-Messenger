@@ -1,4 +1,5 @@
 ---
+layout: none
 ---
 
 <!DOCTYPE html>
@@ -26,8 +27,8 @@
             <header>
                 {% include header.html %}
             </header>
-            <hr />
             <div id="content" class="content">
+                <h1 id="title_of_text">{{ page.title }}</h1>
                 {{ content }}
             </div>
             <div id="blog_data">

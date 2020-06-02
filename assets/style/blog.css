@@ -71,11 +71,10 @@ h1, h2 {
     border-bottom: 1px solid #333333;
 }
 
-#title {
+#title_of_text {
     font-size: 2em;
     line-height: 1.25em;
-    width: 70%;
-    margin: 30px auto;
+    margin: 0 auto;
     padding: 0px;
     text-align: center;
 }

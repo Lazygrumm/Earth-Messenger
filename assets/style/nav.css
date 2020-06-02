@@ -2,18 +2,13 @@
     box-sizing: border-box;
 }
 
-body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, th, td {
-    margin: 0;
-    padding: 0;
-}
-
-a, a:visited, a:active, a:link {
+.nav_content a, a:visited, a:active, a:link {
     text-decoration: none;
     transition: all 0.3s;
     color: rgb(255, 255, 255);
 }
 
-a:hover {
+.nav_content a:hover {
     color: rgb(191, 192, 193);
 }
 
@@ -35,6 +30,8 @@ a:hover {
     line-height: 48px;
     padding: 0 15px;
     float: left;
+    margin: 0;
+    border: none;
 }
 
 .nav_content .nav_logo a img {
@@ -50,6 +47,7 @@ a:hover {
     color: rgb(255, 255, 255);
     font-size: 19px;
     font-weight: bold;
+    text-decoration: none;
 }
 
 .nav_content .nav_logo a h2:hover {
@@ -63,7 +61,7 @@ a:hover {
     padding: 0;
 }
 
-ol, ul, li {
+nav_content ol, ul, li {
     text-decoration: none;
 }
 
